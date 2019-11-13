@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <nav>
         <ul class="menu">
-          <li class="logo"><a href="a">MaxGDev</a></li>
+          <li class="logo"><a href="a">MaxG</a></li>
           <li class="item"><a href="a">Home</a></li>
           <li class="item"><a href="a">About</a></li>
           <li class="item"><a href="a">Resume</a></li>
