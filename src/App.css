@@ -1,13 +1,107 @@
-.App {
+body {
+  /* background-color: #282c34; */
+}
+/* .header {
+  display: flex;
+  justify-items: flex-end;
+}
+
+.App-link {
+  color: #09d3ac;
+} */
+
+/* Mobile menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.toggle {
+  order: 1;
+}
+.item.button {
+  order: 2;
+}
+.item {
+  width: 100%;
   text-align: center;
+  order: 3;
+  display: none;
 }
-
-.App-logo {
-  height: 40vmin;
+.item.active {
+  display: block;
 }
-
-.App-header {
-  background-color: #282c34;
+/* Tablet menu */
+@media all and (min-width: 600px) {
+  .menu {
+      justify-content: center;
+  }
+  .logo {
+      flex: 1;
+  }
+  .toggle {
+      flex: 1;
+      text-align: right;
+  }
+  .item.button {
+      width: auto;
+      order: 1;
+      display: block;
+  }
+  .toggle {
+      order: 2;
+  }
+  .button.secondary {
+      border: 0;
+  }
+  .button a {
+      padding: 7.5px 15px;
+      background: teal;
+      border: 1px #006d6d solid;
+  }
+  .button.secondary a {
+      background: transparent;    
+  }
+  .button a:hover {
+      text-decoration: none;
+  }
+  .button:not(.secondary) a:hover {
+      background: #006d6d;
+      border-color: #005959;
+  }
+  .button.secondary a:hover {
+      color: #ddd;
+  } 
+}
+/* Desktop menu */
+@media all and (min-width: 900px) {
+  .item {
+      display: block;
+      width: auto;
+  }
+  .toggle {
+      display: none;
+  }
+  .logo {
+      order: 0;
+  }
+  .item {
+      order: 1;
+  }
+  .button {
+      order: 2;
+  }
+  .menu li {
+      padding: 15px 10px;
+  }
+  .menu li.button {
+      padding-right: 0;
+  }
+}
+/*  Main Content*/
+/* .content {
+  text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,8 +109,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-
-.App-link {
-  color: #09d3ac;
+.sectionItem {
+  flex: 1;
 }
