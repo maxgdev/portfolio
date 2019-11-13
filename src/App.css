@@ -1,15 +1,42 @@
+/* Basic styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
-  /* background-color: #282c34; */
+    font-family: sans-serif;
 }
-/* .header {
-  display: flex;
-  justify-items: flex-end;
+nav {
+    /* background: #222; */
+    padding: 5px 20px;
 }
-
-.App-link {
-  color: #09d3ac;
-} */
-
+ul {
+    list-style-type: none;
+}
+a {
+    color: #aaa;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover {
+    text-decoration: underline;
+}
+.logo a:hover {
+    text-decoration: none;
+}
+.menu li {
+    font-size: 16px;
+    padding: 15px 5px;
+    white-space: nowrap;
+}
+.logo a,
+.toggle a {
+    font-size: 20px;
+}
+.button.secondary {
+    border-bottom: 1px #444 solid;
+}
 /* Mobile menu */
 .menu {
   display: flex;
@@ -99,22 +126,20 @@ body {
       padding-right: 0;
   }
 }
-/*  Main Content*/
-/* .content {
-  text-align: center;
-  min-height: 100vh;
+
+.sectionContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-section {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* width: 100%; */
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  */
+   /* grid-template-rows: auto auto auto; */
 }
 .sectionItem {
   flex: 1;
-}
+  width: 100%;
+} 
+
+img {
+  width: 100%;
+  /* height: 100%; */
+  display: block;
+} 
