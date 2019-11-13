@@ -155,12 +155,12 @@ footer {
   transition: bottom ease-in 0.3s;
   position: absolute;
   bottom: -60px;
-  left:0;
+  left:10;
   /* background-color:white; */
   color: white;
   /* opacity: 0.7; */
   width: 100%;
-  /* text-align: center; */
+  text-align: center;
 }
 
 
