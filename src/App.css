@@ -20,7 +20,7 @@ a {
     font-weight: 600;
 }
 a:hover {
-    text-decoration: underline;
+    color: black;
 }
 .logo a:hover {
     text-decoration: none;
@@ -136,6 +136,8 @@ a:hover {
 .sectionItem {
   flex: 1;
   width: 100%;
+  position: relative;
+  overflow: hidden;
 } 
 
 img {
@@ -143,3 +145,29 @@ img {
   /* height: 100%; */
   display: block;
 } 
+footer {
+  padding: 10px 0px;
+  text-align: center;
+  /* background: black; */
+}
+.overlay {
+  /* display: none; */
+  transition: bottom ease-in 0.3s;
+  position: absolute;
+  bottom: -60px;
+  left:0;
+  /* background-color:white; */
+  color: white;
+  /* opacity: 0.7; */
+  width: 100%;
+  /* text-align: center; */
+}
+
+
+.sectionItem:hover .overlay {
+  display: block;
+  bottom: 150px;
+  font-size: 28px;
+  font-weight: bold;
+  /* color: black; */
+}
