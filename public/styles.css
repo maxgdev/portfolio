@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
+    width: 300px;
+    height: 300px;
+
+}
+.card {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    transform-style: preserve-3d ;
+}
+.card-container:hover .card {
+    transform: rotateX(180deg);
+}
+.card figure {
+    text-align: center;
+    padding: 5px;
+    width:100%;
+    height: 100%;
+    position: absolute;
+}
+
+.card .front {
+    background: #2bcbba;
+    color: #fff;
+}
+.card .back {
+    background: #26de81;
+    color: #fff;
+    transform: rotateX(180deg);
+}
