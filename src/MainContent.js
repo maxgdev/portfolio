@@ -7,7 +7,7 @@ import keyboardMouse from './images/keyboardmouse.jpg';
 import macLaptop from './images/maclaptop.jpg';
 import tablet from './images/tablet.jpg';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faCss3, faHtml5, faCode, faCodepen, faGithub, faJs, faReact, faNode, faJsSquare, faWordpress,
+import { fab, faCss3, faHtml5, faCode, faCodepen, faGithub, faJs, faReact, faJsSquare, faWordpress,
      faAws, faBootstrap, faLinkedin, faYoutube, faPhp, faNodeJs, faTwitter,  } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCloud, faDatabase, faCog } from '@fortawesome/free-solid-svg-icons'
@@ -49,8 +49,13 @@ export default function MainContent() {
                     </div> 
                 </figure>
                 <figure class='back'>
+                  <div className='pulse'>
                         <h1>Technologies</h1>
-                        <p><span className='fontAwesome'><FontAwesomeIcon icon={faHtml5}/></span>HTML/CSS</p>
+                        <p>
+                          <span className='fontAwesome'><FontAwesomeIcon icon={faHtml5}/></span>
+                          <span className='fontAwesome'><FontAwesomeIcon icon={faCss3}/></span>
+                          HTML/CSS
+                        </p>
                         <p><span className='fontAwesome'><FontAwesomeIcon icon={faJsSquare}/></span>Javascript</p>
                         <p><span className='fontAwesome'><FontAwesomeIcon icon={faReact}/></span>React.js v16.8.x</p>
                         <p><span className='fontAwesome'><FontAwesomeIcon icon={faNodeJs}/></span>Nodejs</p>
@@ -58,6 +63,7 @@ export default function MainContent() {
                         <p><span className='fontAwesome'><FontAwesomeIcon icon={faGithub}/></span>github VC</p>
                         <p><span className='fontAwesome'><FontAwesomeIcon icon={faCog}/></span>3rd Party API</p>
                         <p>Heroku hosting</p>
+                  </div>
                 </figure>
             </div>
           </div>

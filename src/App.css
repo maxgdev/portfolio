@@ -84,12 +84,15 @@ a:hover {
 }
 
 .card .front {
-  background: #2bcbba;
+  background: #89ecda;
   color: #fff;
+  border: solid 1px #89ecda;
 }
 .card .back {
-  background: #26de81;
-  color: #fff;
+  padding-top: 40px;
+  background: white;
+  color: #aaa;
+  border: solid 4px #89ecda;
   transform: rotateY(180deg);
 }
 img {
@@ -131,6 +134,7 @@ footer {
 }
 .fontAwesome {
   margin: 0 8px;
+  color: #3bd6c6;
 }
 .footerContainer P {
   color: #aaa;
@@ -143,4 +147,52 @@ footer {
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   grid-template-columns: repeat(4, 1fr);
   margin: 10px 30px;
+}
+
+blockquote {
+  display: block;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+cite {
+  margin-left: 40px;
+}
+blockquote img {
+  display: inline;
+  width: 30px;
+  height: 20px;
+  
+}
+.pulse {
+  animation: breathing 2s ease-in-out infinite;
+
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.9);
+    transform: scale(0.8);
+  }
 }

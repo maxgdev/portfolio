@@ -9,3 +9,14 @@ https://scotch.io/tutorials/using-font-awesome-5-with-react
 FontAwesome
 https://fontawesome.com/
 
+flag-icon-css
+https://flag-icon-css.lip.is/
+
+Shades of Turquoise Color Palette
+https://www.color-hex.com/color-palette/1836
+
+Interactive Pile of Polaroids | Animated Polaroid
+https://evilwebdev.com/interactive-pile-of-polaroids-animated-polaroid/
+
+Adding vector graphics to the Web
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web
