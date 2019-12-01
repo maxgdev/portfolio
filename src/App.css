@@ -63,7 +63,7 @@ a:hover {
 } 
 .card-container {
   width: 400px;
-  height: 400px;
+  height: 300px; 
 
 }
 .card {
@@ -84,15 +84,15 @@ a:hover {
 }
 
 .card .front {
-  background: #89ecda;
+  /* background: #89ecda; */
   color: #fff;
-  border: solid 1px #89ecda;
+  /* border: solid 1px #89ecda; */
 }
 .card .back {
   padding-top: 40px;
   background: white;
   color: #aaa;
-  border: solid 4px #89ecda;
+  /* border: solid 4px #89ecda; */
   transform: rotateY(180deg);
 }
 img {
@@ -102,25 +102,36 @@ img {
 } 
 
 .overlay {
-  /* display: none; */
-  transition: bottom ease-in 0.3s;
   position: absolute;
-  bottom: -60px;
-  left:10;
-  /* background-color:white; */
-  color: white;
-  /* opacity: 0.7; */
-  width: 100%;
+  bottom: 0px;
+  font-size: 18px;
+  padding: 10px 5px;
+  font-weight: bold;
+  color: #000;
+  /* opacity: 0.6; */
+  width: 98%;
   text-align: center;
 }
 
-.sectionItem:hover .overlay {
+.dark {
+  color: black;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.light {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+}
+
+/* .sectionItem:hover .overlay {
   display: block;
   bottom: 150px;
   font-size: 28px;
   font-weight: bold;
-  /* color: black; */
-}
+   color: black;
+} */
 footer {
   padding: 10px 0px;
   text-align: center;
