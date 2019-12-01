@@ -10,7 +10,7 @@ library.add(fab);
 export default function SkillSet() {
     return (
     <>
-        <div className='skillset' className='skillsetContainer'>
+        <div className='skillsetContainer'>
             <div><h5>HTML5<span className='fontAwesome'><FontAwesomeIcon icon={faHtml5}/></span></h5></div>
             <div><h5>CSS3<span className='fontAwesome'><FontAwesomeIcon icon={faCss3}/></span></h5></div>
             <div><h5>JavaScript<span className='fontAwesome'><FontAwesomeIcon icon={faJsSquare}/></span></h5></div>

@@ -1,4 +1,4 @@
-Thhis Portfolio project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Portfolio project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Credits:
 Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from www.flaticon.com
@@ -23,3 +23,6 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Add
 
 Mastering The HTML <audio> Tag
 https://catswhocode.com/html-audio-tag/
+
+Moment.js
+https://momentjs.com/
