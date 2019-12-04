@@ -185,6 +185,16 @@ blockquote img {
   animation: breathing 2s ease-in-out infinite;
 
 }
+.pulse h1 {
+  margin-bottom: 15px;
+}
+.pulse h3 {
+  margin-top: 15px;
+}
+.pulse p {
+  text-align: start;
+  padding-left: 30%;
+}
 
 @keyframes breathing {
   0% {
@@ -228,4 +238,23 @@ blockquote img {
   color: black;
   padding-top: 15%;
   
+}
+.headerText span {
+  color: #3bd6c6;
+  font-size: 6.5rem;
+}
+.headerText span {
+  animation: shadow-pulse 2s ease-in-out 10;
+  border-radius: 5%;
+}
+
+
+@keyframes shadow-pulse
+{
+     0% {
+          box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+     }
+     100% {
+          box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+     }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import fruitCake from './images/fruitcake.jpg';
+import kodflix from './images/kodflix.png';
 import projects from './images/projects.jpg';
 import codeScreen from './images/codescreen.jpg';
 import keyboardMouse from './images/keyboardmouse.jpg';
@@ -31,7 +31,7 @@ export default function MainContent() {
           <div class='card-container'>
             <div class='card'>
               <figure class='front'>
-                <img src={macLaptop} alt='Kodflix' />
+                <img src={kodflix} alt='Kodflix' />
                 <div className='overlay dark'>
                   <h1>Kodflix</h1>
                 </div>
