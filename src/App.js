@@ -7,6 +7,7 @@ import Footer from './Footer';
 import About from './About'
 import Header from './Header'
 import SectionHeader from './SectionHeader';
+import Contact from './Contact';
 function App() {
   return (
     <div className="App">
@@ -14,10 +15,13 @@ function App() {
       <Header/>
       <SectionHeader title='Projects' id='Projects'/>
       <MainContent/>
-      <SectionHeader title='About'cid='About'/>
+      <SectionHeader title='-'/>
+      <SectionHeader title='About' id='About'/>
       <About/>
       <SectionHeader title='Skillset' id='Skillset'/>
       <SkillSet/>
+      <SectionHeader title='Contact Me' id='Contact'/>
+      <Contact/>
       <Footer/>
     </div>
   );

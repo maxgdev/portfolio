@@ -1,12 +1,26 @@
 import React from 'react';
 import './App.css';
 
-export default function SkillSet() {
+export default function Contact() {
     return (
     <>
         <div className='contact'>
-            <h1>Contact Page</h1>
-            <p>Just collect name ane email address for notification</p>
+            <div>
+                <p>You can contact me at max at maxgdev.net</p>
+                <p> Alternatively leave your email address and I will keep you updated</p>
+                <form>
+                    <input 
+                        type='email'
+                        placeholder='Enter you email for status updates'
+                        name='emailAddress'
+                        value=''
+                    />
+                    <input
+                        type='submit'
+                        value='Send Email Address'
+                    />
+                </form>
+            </div>
         </div>
     </>);
 }
