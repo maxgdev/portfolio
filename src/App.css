@@ -167,7 +167,7 @@ footer {
 }
 
 .skillsetContainer {
-  color: #aaa;
+  color: #696969;
   font-weight: 800;
 }
 blockquote {
@@ -236,24 +236,24 @@ blockquote img {
   margin-right: auto;
   margin-left: auto;
   font-size: 2.5rem;
-  background: url(./images/blackmanwithlaptop.jpg);
+  background: url(./images/blackusinglaptop.jpg);
   background-size: cover;
   text-align: center;
 }
 .headerText {
   color: black;
   padding-top: 10%;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #fff;
-  
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff; */
+  text-shadow: 0 0 3px #fff;
 }
 .headerText span {
-  color: #3bd6c6;
+  color: #000;
   font-size: 6.5rem;
 }
 .title {
   /* -webkit-text-fill-color: white; Will override color (regardless of order) */
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fff;
 }
 /* .headerText span {
@@ -271,4 +271,18 @@ blockquote img {
 } */
 .maincontent {
   width: 100%;
+}
+
+/* CSS for SectionHeader Component  */
+.SectionHeader {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background: url('./images/blackblueswirl.jpg') no-repeat;
+    /* background: url('../img/elvis.jpg') no-repeat fixed;  background no fixed */
+    background-position: center;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+    font: 700 2em 'Open Sans', sans-serif;
 }

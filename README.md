@@ -27,3 +27,6 @@ https://catswhocode.com/html-audio-tag/
 
 Moment.js
 https://momentjs.com/
+
+Animate.css
+https://github.com/daneden/animate.css
