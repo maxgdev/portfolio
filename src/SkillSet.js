@@ -11,13 +11,12 @@ export default function SkillSet() {
     return (
     <>
         <div className='skillsetContainer'>
-            <div><h5>HTML5<span className='fontAwesome'><FontAwesomeIcon icon={faHtml5}/></span></h5></div>
-            <div><h5>CSS3<span className='fontAwesome'><FontAwesomeIcon icon={faCss3}/></span></h5></div>
-            <div><h5>JavaScript<span className='fontAwesome'><FontAwesomeIcon icon={faJsSquare}/></span></h5></div>
-            <div><h5>JavaScript<span className='fontAwesome'><FontAwesomeIcon icon={faJs}/></span></h5></div>
-            <div><h5>ReactJS<span className='fontAwesome'><FontAwesomeIcon icon={faReact}/></span></h5></div>
-            <div><h5>Node.js<span className='fontAwesome'><FontAwesomeIcon icon={faNode}/></span></h5></div>
-            <div><h5>Node.js<span className='fontAwesome'><FontAwesomeIcon icon={faGithub}/></span></h5></div>
+            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faHtml5}/></span>HTML5</h5></div>
+            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faCss3}/></span>CSS3</h5></div>
+            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faJsSquare}/></span>JavaScript</h5></div>
+            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faReact}/></span>ReactJS</h5></div>
+            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faNode}/></span>Node.js</h5></div>
+            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faGithub}/></span>Node.js</h5></div>
             <div><h5>MySQL<span className='fontAwesome'><FontAwesomeIcon icon={faDatabase}/></span></h5></div>
             <div><h5>MongoDB<span className='fontAwesome'><FontAwesomeIcon icon={faDatabase}/></span></h5></div>
             <div><h5>PHP<span className='fontAwesome'><FontAwesomeIcon icon={faPhp}/></span></h5></div>
