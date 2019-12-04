@@ -3,11 +3,21 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Tomorrow', sans-serif;
 }
 
 nav {
-    padding: 5px 20px;
+    /* padding: 5px 20px; */
+    display: flex;
+}
+.logo {
+  flex: 2;
+}
+.navcenter {
+  flex: 4;
+}
+.navblock {
+  flex: 6;
 }
 ul {
     list-style-type: none;
@@ -243,8 +253,6 @@ blockquote img {
 .headerText {
   color: black;
   padding-top: 10%;
-  /* -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #fff; */
   text-shadow: 0 0 3px #fff;
 }
 .headerText span {
@@ -279,10 +287,11 @@ blockquote img {
     margin-bottom: 15px;
     background-size: cover;
     background: url('./images/blackblueswirl.jpg') no-repeat;
-    /* background: url('../img/elvis.jpg') no-repeat fixed;  background no fixed */
+    /* background: url('./images/blackblueswirl.jpg') no-repeat fixed; */
     background-position: center;
     text-align: center;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
-    font: 700 2em 'Open Sans', sans-serif;
+    -webkit-text-fill-color: transparent;   
+    font: 800 2em  'Tomorrow', sans-serif;
 }
+/* CSS for SectionHeader Component  */

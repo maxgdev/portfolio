@@ -30,3 +30,6 @@ https://momentjs.com/
 
 Animate.css
 https://github.com/daneden/animate.css
+
+Google Fonts
+https://fonts.google.com/
