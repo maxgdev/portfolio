@@ -11,21 +11,20 @@ export default function SkillSet() {
     return (
     <>
         <div className='skillsetContainer'>
-            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faHtml5}/></span>HTML5</h5></div>
-            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faCss3}/></span>CSS3</h5></div>
-            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faJsSquare}/></span>JavaScript</h5></div>
-            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faReact}/></span>ReactJS</h5></div>
-            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faNode}/></span>Node.js</h5></div>
-            <div><h5><span className='fontAwesome'><FontAwesomeIcon icon={faGithub}/></span>Node.js</h5></div>
-            <div><h5>MySQL<span className='fontAwesome'><FontAwesomeIcon icon={faDatabase}/></span></h5></div>
-            <div><h5>MongoDB<span className='fontAwesome'><FontAwesomeIcon icon={faDatabase}/></span></h5></div>
-            <div><h5>PHP<span className='fontAwesome'><FontAwesomeIcon icon={faPhp}/></span></h5></div>
-            <div><h5>Wordpress Setup & Config<span className='fontAwesome'><FontAwesomeIcon icon={faWordpress}/></span></h5></div>
-            <div><h5>Wordpress Theme Customisation<span className='fontAwesome'><FontAwesomeIcon icon={faWordpress}/></span></h5></div>
-            <div><h5>Bootstrap<span className='fontAwesome'><FontAwesomeIcon icon={faBootstrap}/></span></h5></div>
-            <div><h5>Cloud Services (AWS)<span className='fontAwesome'><FontAwesomeIcon icon={faAws}/></span></h5></div>
-            <div><h5>Cloud Services (Google)<span className='fontAwesome'><FontAwesomeIcon icon={faCloud}/></span></h5></div>
-            <div><h5>Cloud Services (Google)<span className='fontAwesome'><FontAwesomeIcon icon={faCloud}/></span></h5></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faHtml5}/></span>HTML5</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faCss3}/></span>CSS3</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faJsSquare}/></span>JavaScript</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faReact}/></span>ReactJS</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faNode}/></span>Node.js</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faGithub}/></span>Node.js</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faDatabase}/></span>MySQL</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faDatabase}/></span>MongoDB</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faPhp}/></span>PHP</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faWordpress}/></span>Wordpress Setup & Config</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faWordpress}/></span>Wordpress Theme Customisation</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faBootstrap}/></span>Bootstrap</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faAws}/></span>Cloud Services (AWS)</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faCloud}/></span>Cloud Services (Google)</h3></div>
         </div>
     </>);
 }

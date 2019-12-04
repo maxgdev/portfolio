@@ -12,7 +12,8 @@ import wajudah from './images/wajudah.png'
 import jscalculator from './images/jscalculator.png'
 import brainjs from './images/brainjs.png'
 import htmlaudiotag from './images/htmlaudiotag.png'
-import fertility from './images/fertility.jpg'
+// import fertility from './images/fertility.jpg'
+import D3 from './images/d3.png'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   fab, faCss3, faHtml5, faCode, faCodepen, faGithub, faJs, faReact, faJsSquare, faWordpress,
@@ -225,9 +226,9 @@ export default function MainContent() {
         <div class='card-container'>
           <div class='card'>
             <figure class='front'>
-              <img src={fertility} alt='Pregnancy test kit image' />
+              <img src={D3} alt='d3 logo' />
               <div className='overlay light'>
-                <h1>Fertilty App</h1>
+                <h1>A d3 App</h1>
               </div>
             </figure>
             <figure class='back'>
@@ -238,10 +239,10 @@ export default function MainContent() {
                     <span className='fontAwesome'><FontAwesomeIcon icon={faCss3} /></span>
                   HTML/CSS
                   </p>
-                <p><span className='fontAwesome'><FontAwesomeIcon icon={faJsSquare} /></span>Moment.js Libary</p>
+                <p><span className='fontAwesome'><FontAwesomeIcon icon={faJsSquare} /></span>D3.js Libary</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faReact} /></span>React.js v16.8.x</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>Zeit Now hosting</p>
-                <h3>An app to track ovulation</h3>
+                <h3>A D3.js App</h3>
                 <p>Coming soon...</p>
               </div>
             </figure>
