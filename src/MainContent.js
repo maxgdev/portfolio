@@ -33,7 +33,7 @@ export default function MainContent() {
           <div class='card'>
             <figure class='front'>
               <img src={kodflix} alt='Kodflix' />
-              <div className='overlay dark'>
+              <div className='overlay light'>
                 <h1>Kodflix</h1>
               </div>
             </figure>
@@ -143,7 +143,6 @@ export default function MainContent() {
           </div>
         </div>
 
-
         <div class='card-container'>
           <div class='card'>
             <figure class='front'>
@@ -193,9 +192,6 @@ export default function MainContent() {
             </figure>
           </div>
         </div>
-        {/* </section> */}
-
-        {/* <section className='sectionContainer'> */}
 
         <div class='card-container'>
           <div class='card'>
@@ -274,7 +270,6 @@ export default function MainContent() {
             </figure>
           </div>
         </div>
-
 
       </main>
     </>);

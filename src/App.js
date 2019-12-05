@@ -15,13 +15,12 @@ function App() {
       <Header/>
       <SectionHeader title='Projects' id='Projects'/>
       <MainContent/>
-      <SectionHeader title='-'/>
       <SectionHeader title='About' id='About'/>
       <About/>
       <SectionHeader title='Skillset' id='Skillset'/>
       <SkillSet/>
-      <SectionHeader title='Contact Me' id='Contact'/>
-      <Contact/>
+      {/* <SectionHeader title='Contact Me' id='Contact'/> */}
+     
       <Footer/>
     </div>
   );
