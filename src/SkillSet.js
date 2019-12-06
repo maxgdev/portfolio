@@ -21,8 +21,8 @@ export default function SkillSet() {
             <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faDatabase}/></span>MongoDB</h3></div>
             <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faDatabase}/></span>MySQL</h3></div>
             <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faPhp}/></span>PHP</h3></div>
-            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faWordpress}/></span>Wordpress Setup & Config</h3></div>
-            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faWordpress}/></span>Wordpress Theme Customisation</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faWordpress}/></span>WP Setup & Config</h3></div>
+            <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faWordpress}/></span>WP Theme Customisation</h3></div>
             <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faBootstrap}/></span>Bootstrap</h3></div>
             <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faAws}/></span>Cloud Services (AWS)</h3></div>
             <div><h3><span className='fontAwesome'><FontAwesomeIcon icon={faCloud}/></span>Cloud Services (Google)</h3></div>
