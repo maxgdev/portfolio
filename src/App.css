@@ -15,8 +15,36 @@ nav {
   padding-left: 2%;
 }
 .logo a {
-  color: #3bd6c6;
+  color: #0281B2;
 }
+
+/* #0281B2 colour palette
+https://www.color-hex.com/color/0281b2
+Shades of #0281b2
+#0281b2
+#0174a0
+#01678e
+#015a7c
+#014d6a
+#014059
+#003347
+#002635
+#001923
+#000c11
+
+Tints of #0281b2
+#0281b2
+#1b8db9
+#349ac1
+#4da6c9
+#67b3d0
+#80c0d8
+#99cce0
+#b3d9e7
+#cce5ef
+#e5f2f7
+
+*/
 .navcenter {
   flex: 4;
 }
@@ -157,7 +185,8 @@ footer {
 }
 .fontAwesome {
   margin: 0 8px;
-  color: #3bd6c6;
+  /* color: #3bd6c6; */
+  color: #67b3d0;
 }
 .footerContainer P {
   color: #aaa;
