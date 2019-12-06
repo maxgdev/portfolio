@@ -14,6 +14,9 @@ nav {
   flex: 2;
   padding-left: 2%;
 }
+.logo a {
+  color: #3bd6c6;
+}
 .navcenter {
   flex: 4;
 }
