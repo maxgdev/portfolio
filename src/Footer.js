@@ -19,7 +19,7 @@ export default function Footer() {
             <p>&copy; 2020 maxgdev.net. Stratford, London E15</p>
           </div>
           <div className="social-media footer-item">
-            <a href="https://www.linkedin.com/" target='_blank' rel="noopener noreferrer"><span className='fontAwesome'><FontAwesomeIcon icon={faLinkedin}/></span></a>
+            <a href="https://www.linkedin.com/in/max-garry-072107114/" target='_blank' rel="noopener noreferrer"><span className='fontAwesome'><FontAwesomeIcon icon={faLinkedin}/></span></a>
             <a href="https://github.com/maxgdev" target='_blank' rel="noopener noreferrer"><span className='fontAwesome'><FontAwesomeIcon icon={faGithub}/></span></a>
             <a href="https://www.youtube.com/" target='_blank' rel="noopener noreferrer"><span className='fontAwesome'><FontAwesomeIcon icon={faYoutube}/></span></a>
             <a href="http://codepen.io/" target='_blank' rel="noopener noreferrer"><span className='fontAwesome'><FontAwesomeIcon icon={faCodepen}/></span></a>
