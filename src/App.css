@@ -6,6 +6,13 @@
     font-family: 'Tomorrow', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  
+/* Smooth Scrolling - "scroll-behavior: smooth" to the <html> element to enable smooth scrolling for the 
+whole page (note: it is also possible to add it to a specific element/scroll container): */
+}
+
 nav {
     /* padding: 5px 20px; */
     display: flex;
@@ -269,23 +276,30 @@ blockquote img {
   margin-right: auto;
   margin-left: auto;
   font-size: 2.5rem;
-  background: url(./images/blackusinglaptop.jpg);
+  /* background: url(./images/blackusinglaptop.jpg); */
+  background: url(./images/computercode.jpg);
   background-size: cover;
   text-align: center;
 }
 .headerText {
-  color: black;
+  color: #90C149;
+  /* color: black; */
   padding-top: 10%;
-  text-shadow: 0 0 3px #fff;
+  text-shadow: 0 0 3px #000;
+  /* text-shadow: 0 0 3px #fff; */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
 }
 .headerText span {
-  color: #000;
+  color:#90C149;
+  /* color: #000; */
   font-size: 6.5rem;
 }
 .title {
   /* -webkit-text-fill-color: white; Will override color (regardless of order) */
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-color: #000;
+  /* -webkit-text-stroke-color: #fff; */
 }
 /* .headerText span {
   animation: shadow-pulse 2s ease-in-out 10;
