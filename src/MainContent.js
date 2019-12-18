@@ -100,7 +100,7 @@ export default function MainContent() {
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faDatabase} /></span>MySQL</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>WP hosting</p>
                 <h3>Wordpress site built for a health professional</h3>
-                <a href='http://www.khamithealth.com' target='_blank' rel="noopener noreferrer">Visit Site</a>
+                <a href='http://www.khamithealth.com/' target='_blank' rel="noopener noreferrer">Visit Site</a>
               </div>
             </figure>
           </div>
