@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faCss3, faHtml5, faCode, faCodepen, faGithub, faJs, faReact, faNode, faJsSquare, faWordpress,
-     faAws, faBootstrap, faLinkedin, faYoutube, faPhp } from '@fortawesome/free-brands-svg-icons'
+import { fab, faCss3, faHtml5, faGithub, faReact, faNode, faJsSquare, faWordpress,
+     faAws, faBootstrap, faPhp } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCloud, faDatabase, faLayerGroup} from '@fortawesome/free-solid-svg-icons'
 library.add(fab);

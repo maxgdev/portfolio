@@ -4,8 +4,8 @@ import './App.css';
 export default function Header({title}) {
     return (
     <>
-        <div class='SectionHeader '>
-            <div  class='SectionHeader'>
+        <div className='SectionHeader '>
+            <div  className='SectionHeader'>
                 <p>{title}</p>
             </div>
         </div>

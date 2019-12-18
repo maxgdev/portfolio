@@ -33,3 +33,6 @@ https://github.com/daneden/animate.css
 
 Google Fonts
 https://fonts.google.com/
+
+Luis Gomes
+https://www.pexels.com/photo/blur-close-up-code-computer-546819/

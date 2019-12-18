@@ -7,7 +7,7 @@ import Footer from './Footer';
 import About from './About'
 import Header from './Header'
 import SectionHeader from './SectionHeader';
-import Contact from './Contact';
+// import Contact from './Contact';
 function App() {
   return (
     <div className="App">
