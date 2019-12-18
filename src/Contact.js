@@ -4,7 +4,7 @@ import './App.css';
 export default function Contact() {
     return (
     <>
-        <div className='contact'>
+        <div id='contact' className='contact'>
             <div>
                 <p>You can contact me at max at maxgdev.net</p>
                 <p> Alternatively leave your email address and I will keep you updated</p>

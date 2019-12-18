@@ -25,7 +25,7 @@ export default function Footer() {
             <a href="http://codepen.io/" target='_blank' rel="noopener noreferrer"><span className='fontAwesome'><FontAwesomeIcon icon={faCodepen}/></span></a>
           </div>
           <div className='footer-item'>
-          <a href='/'>Back to Top</a>
+          <a href='#nav'>Back to Top</a>
           </div>
         </div>
       </footer>

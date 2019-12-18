@@ -26,7 +26,7 @@ library.add(fab);
 export default function MainContent() {
   return (
     <>
-      <main className='mainContainer'>
+      <main id='projects' className='mainContainer'>
         {/* <section className='mainContainer'> */}
 
         <div class='card-container'>
@@ -48,8 +48,7 @@ export default function MainContent() {
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faReact} /></span>React.js v16.8.x</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>heroku hosting</p>
                 <h3>Kodflix is a project built as part of Kodiri's 8 Week React Bootcamp</h3>
-                <p>Coming very soon...</p>
-                <a href='#' target='_blank'>Visit Site</a>
+                <a href='https://kodflix-maxgdev.herokuapp.com/' target='_blank' rel='noopener noreferrer'>Visit Site</a>
               </div>
             </figure>
           </div>
@@ -77,9 +76,8 @@ export default function MainContent() {
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faDatabase} /></span>Firebase</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faGithub} /></span>github VC</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCog} /></span>3rd Party API</p>
-                <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>Heroku hosting</p>
                 <h3>TAP Social was built by Team State as part of our Kodiri BootCamp</h3>
-                <p>Coming very soon...</p>
+                <a href='https://state.max29.now.sh/' target='_blank' rel='noopener noreferrer'>Visit Site</a>
               </div>
             </figure>
           </div>
@@ -138,6 +136,7 @@ export default function MainContent() {
                 <p>jQuery</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>standard hosting</p>
                 <h3>A publicity site built for a musician</h3>
+                <a href='http://wajudah.com/' target='_blank' rel="noopener noreferrer">Visit Site</a>
               </div>
             </figure>
           </div>
@@ -162,6 +161,7 @@ export default function MainContent() {
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faReact} /></span>React.js v16.8.x</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>Zeit Now hosting</p>
                 <h3>Timed interval task and break timer</h3>
+                <a href='' target='_blank' rel="noopener noreferrer">Visit Site</a>
                 <p>Coming soon...</p>
               </div>
             </figure>
@@ -187,6 +187,7 @@ export default function MainContent() {
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faReact} /></span>React.js v16.8.x</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>Zeit Now hosting</p>
                 <h3>A Calculator App</h3>
+                <a href='' target='_blank' rel="noopener noreferrer">Visit Site</a>
                 <p>Coming soon...</p>
               </div>
             </figure>
@@ -213,6 +214,7 @@ export default function MainContent() {
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCog} /></span>Brain.js</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>Zeit Now hosting</p>
                 <h3>React App that makes use of the Brain.js Neural Network Library</h3>
+                <a href='' target='_blank' rel="noopener noreferrer">Visit Site</a>
                 <p>Coming soon...2020</p>
               </div>
             </figure>
@@ -239,6 +241,7 @@ export default function MainContent() {
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faReact} /></span>React.js v16.8.x</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>Zeit Now hosting</p>
                 <h3>A D3.js App</h3>
+                <a href='' target='_blank' rel="noopener noreferrer">Visit Site</a>
                 <p>Coming soon...</p>
               </div>
             </figure>
@@ -265,6 +268,7 @@ export default function MainContent() {
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faJsSquare} /></span>JS Sound Libary</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>Zeit Now hosting</p>
                 <h3>An App that uses kitchen sounds to make beats</h3>
+                <a href='' target='_blank' rel="noopener noreferrer">Visit Site</a>
                 <p>Coming soon...</p>
               </div>
             </figure>

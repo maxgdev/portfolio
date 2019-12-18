@@ -285,10 +285,10 @@ blockquote img {
   color: #90C149;
   /* color: black; */
   padding-top: 10%;
-  text-shadow: 0 0 3px #000;
+  text-shadow: 0 0 3px #fff;
   /* text-shadow: 0 0 3px #fff; */
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-color: #fff;
 }
 .headerText span {
   color:#90C149;
@@ -297,8 +297,8 @@ blockquote img {
 }
 .title {
   /* -webkit-text-fill-color: white; Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #fff;
   /* -webkit-text-stroke-color: #fff; */
 }
 /* .headerText span {
@@ -341,17 +341,21 @@ blockquote img {
   background: #aaa;
 
 }
+
 .about {
   width: 80%;
   margin: 20px auto;
 }
+
 .about span {
   font-size: 20px;
   margin-left: 70px;
 }
 .about img {
   width: 10%;
+  height: 130px;
   border-radius: 50%;
+  margin: 0 auto;
 }
 .bookquote {
   font-weight: 500;
