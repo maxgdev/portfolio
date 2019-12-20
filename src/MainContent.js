@@ -73,7 +73,7 @@ export default function MainContent() {
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faGithub} /></span>github VC</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCog} /></span>3rd Party API</p>
                 <h3>TAP Social was built by Team State as part of our Kodiri BootCamp</h3>
-                <a href='https://state.max29.now.sh/' target='_blank' rel='noopener noreferrer'>Visit Site</a>
+                <a href='https://tapwebapp.herokuapp.com/' target='_blank' rel='noopener noreferrer'>Visit Site</a>
               </div>
             </figure>
           </div>
