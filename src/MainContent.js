@@ -8,6 +8,7 @@ import wajudah from './images/wajudah.png'
 import jscalculator from './images/jscalculator.png'
 import brainjs from './images/brainjs.png'
 import htmlaudiotag from './images/htmlaudiotag.png'
+import nodesocketio from './images/nodesocketio.png'
 // import fertility from './images/fertility.jpg'
 import D3 from './images/d3.png'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -263,6 +264,34 @@ export default function MainContent() {
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faJsSquare} /></span>JS Sound Libary</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>Zeit Now hosting</p>
                 <h3>An App that uses kitchen sounds to make beats</h3>
+                <a href='#nav' target='_blank' rel="noopener noreferrer">Visit Site</a>
+                <p>Coming soon...</p>
+              </div>
+            </figure>
+          </div>
+        </div>
+
+        <div className='card-container'>
+          <div className='card'>
+            <figure className='front'>
+              <img src={nodesocketio} alt='Socket.io Tag' />
+              <div className='overlay light' >
+                <h1>A socket.io chat App</h1>
+              </div>
+            </figure>
+            <figure className='back'>
+              <div className='pulse'>
+                <h1>Technologies</h1>
+                <p>
+                  <span className='fontAwesome'><FontAwesomeIcon icon={faHtml5} /></span>/
+                    <span className='fontAwesome'><FontAwesomeIcon icon={faCss3} /></span>
+                  HTML/CSS
+                  </p>
+                <p><span className='fontAwesome'><FontAwesomeIcon icon={faReact} /></span>React.js v16.8.x</p>
+                <p><span className='fontAwesome'><FontAwesomeIcon icon={faJsSquare} /></span>JS socket.io Libary</p>
+                <p><span className='fontAwesome'><FontAwesomeIcon icon={faNodeJs} /></span>Nodejs</p>
+                <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>Zeit Now hosting</p>
+                <h3>A chat app built with socket.io</h3>
                 <a href='#nav' target='_blank' rel="noopener noreferrer">Visit Site</a>
                 <p>Coming soon...</p>
               </div>
