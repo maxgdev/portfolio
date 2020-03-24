@@ -2,14 +2,13 @@ import React from 'react';
 import './App.css';
 import kodflix from './images/kodflix.png';
 import codeScreen from './images/codescreen.jpg';
-import pomodoro from './images/pomodoro.png'
+import covid19calc from './images/covid19calc.png'
 import khamithealth from './images/khamithealth.png'
 import wajudah from './images/wajudah.png'
 import jscalculator from './images/jscalculator.png'
 import brainjs from './images/brainjs.png'
 import htmlaudiotag from './images/htmlaudiotag.png'
 import nodesocketio from './images/nodesocketio.png'
-// import fertility from './images/fertility.jpg'
 import D3 from './images/d3.png'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
@@ -141,9 +140,9 @@ export default function MainContent() {
         <div className='card-container'>
           <div className='card'>
             <figure className='front'>
-              <img src={pomodoro} alt='projects' />
+              <img src={covid19calc} alt='covid19 cakculator' />
               <div className='overlay light'>
-                <h1>A Pomodoro App</h1>
+                <h1>COVID-19 Calculator</h1>
               </div>
             </figure>
             <figure className='back'>
@@ -155,10 +154,10 @@ export default function MainContent() {
                   HTML/CSS
                   </p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faReact} /></span>React.js v16.8.x</p>
+                <p><span className='fontAwesome'><FontAwesomeIcon icon={faReact} /></span>React Material-UI</p>
                 <p><span className='fontAwesome'><FontAwesomeIcon icon={faCloud} /></span>Zeit Now hosting</p>
-                <h3>Timed interval task and break timer</h3>
-                <a href='#nav' target='_blank' rel="noopener noreferrer">Visit Site</a>
-                <p>Coming soon...</p>
+                <h3>Covid-19 mortality Calculator</h3>
+                <a href='https://covid19calculator.net/' target='_blank' rel="noopener noreferrer">Visit Site</a>
               </div>
             </figure>
           </div>

@@ -90,7 +90,7 @@ a:hover {
 
 
 /* Desktop menu */
- @media all and (min-width: 900px) {
+ /* @media all and (min-width: 900px) {
   .item {
       display: block;
       width: auto;
@@ -98,7 +98,7 @@ a:hover {
   .item {
       order: 1;
   }
-} 
+}  */
 
 /* Mobile menu */
 @media all and (max-width: 600px) {
@@ -112,10 +112,15 @@ a:hover {
   }
   .header {
     height: 300px;
-    font-size: 1.5rem;
+    font-size: 0.5rem;
   }
+
+  .headerText span {
+    font-size: 2.5rem;
+}
+
   blockquote {
-    font-size: 1em;
+    font-size: 0.5em;
     margin-top: 0.5em;
     margin-bottom: 0.25em;
     margin-left: 20px;
@@ -217,6 +222,8 @@ footer {
   margin: 0 8px;
   /* color: #3bd6c6; */
   color: #67b3d0;
+  display: inline-block;
+  width: 20px;
 }
 .footerContainer P {
   color: #aaa;
